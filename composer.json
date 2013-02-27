@@ -1,0 +1,6 @@
+{
+	"name": "sitegear/vendor-resources",
+	"display-name": "Sitegear Vendor Resources",
+	"description": "Third party vendor provided, browser-side resources (i.e. JavaScript, CSS) used by Sitegear Website Framework",
+	"version": "0.0.1"
+}
