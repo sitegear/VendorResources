@@ -1,0 +1,41 @@
+/*!
+ * jquery.ui.toolbar.css
+ * Generic toolbar widget stylesheet.
+ * 
+ * Copyright (C) 2012 Leftclick.com.au
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+ul.ui-toolbar li.ui-toolbar-wrapper { position: relative; float: left; }
+
+ul.ui-toolbar li.ui-toolbar-wrapper a.ui-toolbar-item { display: block; padding: 4px 4px 8px 4px; line-height: 0; text-align: center; text-decoration: none; border: none; background: transparent; }
+ul.ui-toolbar li.ui-toolbar-wrapper a.ui-toolbar-item.ui-state-hover { background: url(images/hover.png) center bottom no-repeat; }
+ul.ui-toolbar li.ui-toolbar-wrapper a.ui-toolbar-item.ui-state-active { background: url(images/active.png) center bottom no-repeat; }
+ul.ui-toolbar li.ui-toolbar-wrapper a.ui-toolbar-item img.ui-toolbar-icon { width: 32px; height: 32px; margin: 4px 0; }
+ul.ui-toolbar li.ui-toolbar-wrapper a.ui-toolbar-item span.ui-toolbar-label { display: block; font-size: .625em; font-weight: normal; line-height: 1.1; overflow: hidden; }
+
+ul.ui-toolbar li.ui-toolbar-wrapper a.ui-toolbar-item-expander-proxy { background: url(images/compact.png) center bottom no-repeat; }
+ul.ui-toolbar li.ui-toolbar-wrapper a.ui-toolbar-item-expander-proxy.ui-state-hover { background: url(images/compact.png) center bottom no-repeat; }
+
+ul.ui-toolbar li.ui-toolbar-wrapper ul.ui-toolbar-expander-list { display: none; position: absolute; top: 100%; left: 0; margin-top: 1px; width: auto; }
+ul.ui-toolbar li.ui-toolbar-wrapper ul.ui-toolbar-expander-list a.ui-toolbar-item-expander-button { display: block; width: 100%; border: none; white-space: nowrap; padding: 0; text-align: left; background: none; }
+ul.ui-toolbar li.ui-toolbar-wrapper ul.ui-toolbar-expander-list a.ui-toolbar-item-expander-button img.ui-toolbar-icon { display: inline-block; width: 32px; height: 32px; margin: 4px; vertical-align: middle; }
+ul.ui-toolbar li.ui-toolbar-wrapper ul.ui-toolbar-expander-list a.ui-toolbar-item-expander-button span.ui-toolbar-label { display: inline-block; margin: 4px; font-size: smaller; font-weight: normal; }
+
+ul.ui-toolbar.ui-toolbar-labels li.ui-toolbar-wrapper a.ui-toolbar-item-button { width: 56px; }
+ul.ui-toolbar.ui-toolbar-labels li.ui-toolbar-wrapper a.ui-toolbar-item-expander-proxy { width: 56px; }
+ul.ui-toolbar.ui-toolbar-no-labels li.ui-toolbar-wrapper a.ui-toolbar-item span.ui-toolbar-label { display: none; }
+
+ul.ui-toolbar li.ui-toolbar-wrapper .ui-toolbar-item-separator { display: block; float: left; width: 4px; background: transparent url(images/separator.png) center center repeat-y; margin: 0 8px; padding: 4px 0 8px 0; }
