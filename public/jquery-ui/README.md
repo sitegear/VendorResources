@@ -2,7 +2,7 @@
 
 Utilising the "base" theme.
 
-Downloaded from source:
+Downloaded from source CDN:
 
 * http://code.jquery.com/ui/1.10.1/jquery-ui.js
 * http://code.jquery.com/ui/1.10.1/jquery-ui.min.js
